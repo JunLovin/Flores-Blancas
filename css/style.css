@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root {
+    --color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    min-height: 100vh;
+}
+
+.firstIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/391592543_167623553076556_8571904046748916158_n.jpg?stp=dst-jpg_p180x540&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=5toKuLeQUhoAX-tRpH6&_nc_ht=scontent.fuio5-1.fna&oh=00_AfAVTIzNuTYJzSeej8HFXEhnIn44H2oj2tGfpfkCEjG5Ow&oe=65341B79);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    color: var(--color);
+}
+
+.firstIntro h1 {
+    font-size: 5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+
+.firstParagraph {
+    width: 900px;
+    font-weight: 400;
+}
